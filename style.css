@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap');
+
+body{
+  background-color: #e0b16c;
+  margin: 0%;
+  font-family: 'Libre Baskerville', serif;
+}
+
+::-webkit-scrollbar{
+	width:10px;
+	background:#e9c896;
+	-webkit-border-radius:10px;
+}
+
+::-webkit-scrollbar-thumb{
+	-webkit-border-radius:10px;
+	background-color:black;
+}
+
+#title{
+	margin-bottom:3%;
+	height:100%;
+	overflow:hidden;
+	padding:3%;
+}
+
+h1 {
+    text-align:center;
+    margin-top:10%;
+	font-size:390%;
+	font-style:italic;
+	
+}
+h2 {
+  text-align:center;
+  margin-top:30px;
+   margin-bottom:60px;
+  font-style:italic;
+  font-size:250%;
+}
+
+h3{
+  text-align:center;
+  margin-bottom:2%;
+  margin-top:5%;
+  font-size:190%;
+}
+
+
+h4{
+  text-align:center;
+}
+
+/* menu*/
+ul {
+	margin-top:1%;
+	display: flex;
+	justify-content:center; 
+}
+li {
+	list-style: none;
+	text-decoration: none;
+	font-size:1em;
+	letter-spacing:0.1em;
+	margin:1% 7%;
+	transition: 0.3s;
+}
+ 
+li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  
+}
+
+
+#info{
+	padding: 5%;
+	margin-top: -5%;
+	margin-bottom:2%;
+	font-size:1.2em;
+}
+
+/*singola cartolina*/
+.numeroC{
+	text-align:right;
+	border-top: 2px solid black;
+	padding-top:1%;
+	padding-right:1%;
+	font-size: 1.2em;
+}
+.numeroC p{
+	display: inline;
+}
+
+.box {
+  margin-bottom:3%;
+  overflow:hidden;
+}
+
+.box p{
+  margin-bottom:3%;
+  overflow:hidden;
+  text-align:center;
+}
+
+.info {
+	margin-bottom:0%;
+	overflow:hidden;
+	padding:2%;
+}
+
+button {
+	display: block;
+	width:13%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2%;
+	padding:0.5%;
+	border-radius: 12px;
+	background-color:#e9c896;
+	font-family: 'Libre Baskerville', serif;
+	border: 0.2px solid black;
+}
+
+#fronte181 p{
+ margin-left: 15%;
+ margin-right: 15%;
+ 
+}
+
+.column {
+	float: left;
+	width: 50%;
+	text-align:center;
+}
+
+.generaleCart p{
+	margin-top:3%;
+}
+
+.info-box{
+	width: 77%;
+	margin-left:10%;
+	margin-top:10%;
+	margin-bottom:5%;
+	padding: 0% 1.5% 1% 1.9%;
+	overflow:hidden;
+}
+
+.note{
+	margin-left:10%;
+	margin-right:10%;
+	text-align:center;
+}
+
+
+
+#fronte181 img{
+	width: 50%;
+	display:block;
+	margin: auto;
+	margin-right: auto;
+}
+
+.fronte img{
+	width: 25%;
+	display:block;
+	margin: auto;
+	margin-right: auto;
+}
+
+
+.inl{
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+.inl p{
+	display:inline;
+}
+
+
+.interpretativa{
+	display:none;
+	font-weight: bold;
+}
+
+.diplomatica{
+	font-weight: bold;
+
+}
+
+.linea {
+	white-space:nowrap;
+	overflow: hidden;
+	display: inline-block;
+	margin-right: 24%;
+
+}
+/*aff.si*/
+.sposta1 {
+    margin-left: 20%;
+}
+
+/*affettuosi*/
+.sposta2 {
+    margin-right: 40%;
+    
+}
+/*gent.sig*/
+.sposta3 {
+    margin-right: 40% ;
+}
+/*gentile signora*/
+.sposta4 {
+    margin-right: 32%;
+     margin-left: auto;
+}
+
+.linea p {
+	display: inline;
+}
+
+
+img{
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	width: 47%;
+}
+
+.contenitore{
+	display:block;
+	margin-bottom:10%;	
+}
+
+.cartolina{
+	padding:0;
+	margin-left:0;
+	margin-right:0;
+	position:absolute;
+	width:100%;
+	text-align:right;
+}
+
+.messaggio{
+	width:25%;
+	float:left;
+	position:relative;
+	margin-top:-20%;
+	margin-right:10%;
+	margin-left:1%;
+	text-align:left;
+
+}
+
+.indirizzo{
+	width:20%;
+	float:right;
+	position:relative;
+	margin-top:-18%;
+	margin-left:15%;
+}
+.idno_mess{
+	width:20%;
+	float:right;
+	position:relative;
+	margin-top:-22%;
+	margin-left:15%;
+}
+
+.poste{
+	width:100%;
+	height:300px;
+	font-size:0.8em;
+	margin-top: 30%;
+	display:inline-block;
+	text-align:center;
+}
+.poste h3 {
+     margin-bottom: 5%;
+}
+.poste p{
+	display:block;
+	margin:bottom:5%;
+	text-align:center;
+
+}
+
+.poste span{
+	display:block;
+	float:left;
+	margin-left:7%;
+	text-align:center;
+
+}
+
+.stampa {
+	margin-top: 3%;
+	font-size:1.2em;
+}
+.cerchio{
+	border-radius: 50%;
+	width:150px;
+	height:150px;
+	border:0.2em solid black;
+	position: relative;
+}
+
+
+.cerchio span {
+	width: 100px;
+	position: absolute;
+	display: block;
+	margin-left: 14%;
+}
+
+
+
+.francobollo{
+	width:80px;
+	height:100px;
+	padding:1%;
+	border:0.2em solid black;
+	
+}
+
+#illeg {
+	margin-top: 40%;
+}
+
+
+.italic {
+	font-weight:bold;
+	font-style:italic;
+}
+
+.nospace{
+	letter-spacing:0.4px;
+	margin-left:-2%;
+	margin-right:-2%
+}
+
+/* crediti*/
+#crediti{
+	padding:2%;
+	text-align:center;
+}
+
+#crediti p{
+	text-align:center;
+	margin-bottom:3%;
+	font-size:1em;
+}
+
+#licence{
+	margin-top:15%;
+	text-align:center;
+	display:block;
+}
+
+	

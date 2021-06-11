@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE teiCorpus SYSTEM "tei_all.dtd">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Cartoline ad Oliva Tortura</title>
+				<!-- TRASCRITTORE -->
+				<respStmt>
+					<resp>Trascritto da:</resp>
+					<name xml:id="CDN">Chiara De Nigris</name>
+					<name xml:id="AV">Alice Vitali</name>
+				</respStmt>
+				<!-- ENTE DI APPARTENENZA -->
+				<respStmt>
+					<resp>Ente di Appartenenza</resp>
+					<name type="comune" xml:id="CSP">Comune della Spezia</name>
+				</respStmt>
+			</titleStmt>
+			<!-- Edizione digitale -->
+			<editionStmt>
+				<edition>
+					Studenti di Codifica di Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+					<date>2021</date>
+				</edition>
+				<respStmt>
+					<resp>Codificato da:</resp>
+					<name ref="#CDN">Chiara De Nigris</name>
+					<name ref="#AV">Alice Vitali</name>
+				</respStmt>
+				<respStmt>
+					<resp>Compilatore:</resp>
+					<name xml:id="TC">Tommaso Castagneto</name>
+				</respStmt>
+				<respStmt>
+					<resp>Responsabile scientifico:</resp>
+					<name xml:id="GP">Giacomo Paolicchi</name>
+					<name xml:id="ES">Enrica Salvatori</name>
+				</respStmt>
+				<respStmt>
+					<resp>Funzionario responsabile:</resp>
+					<name xml:id="MR">Marzia Ratti</name>
+				</respStmt>
+			</editionStmt>
+			<!-- Pubblicazione -->
+			<publicationStmt>
+				<publisher>Università di Pisa</publisher>
+				<pubPlace>Pisa</pubPlace>
+				<availability>
+					<p>Available under licence only</p>
+				</availability>
+				<date when="2018">2018</date>
+				<distributor>LabCD</distributor>
+				<address>
+					<addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+					<addrLine>Pisa</addrLine>
+				</address>
+			</publicationStmt>
+			<!-- Descrizione fonte -->
+			<sourceDesc>
+				<!--Descrizione manoscritto-->
+				<msDesc>
+					<msIdentifier>
+						<country xml:id="IT">Italia</country>
+						<settlement xml:id="SP">La Spezia (SP)</settlement>
+						<repository xml:id="MCE">
+						Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerra Mondiale</repository>
+					</msIdentifier>
+					<msContents>
+						<summary >Cartolina Artistica</summary>
+						<textLang >Italiano</textLang>
+					</msContents>
+					<physDesc >
+						<objectDesc >
+							<supportDesc>
+								<support>
+									<objectType>Cartolina</objectType>
+									<material>Carta</material>
+									<dimensions unit="cm">
+										<height>9</height>
+										<width>14</width>
+									</dimensions>
+									<stamp>francobollo - Regno d'Italia</stamp>
+									<stamp>timbro - Modena Ferrovia</stamp>
+								</support>
+								<condition>Buono</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+				</msDesc>
+				<!-- NOMI -->
+				<listPerson>
+					<person xml:id="G" >
+						<persName >
+							<forename>Giovanni</forename>
+							<addName type="alias">Giovannino</addName>
+						</persName>
+						<sex>M</sex>
+					</person>
+					<person xml:id="OT">
+						<persName >
+							<forename>Oliva</forename>
+							<surname>Turtura</surname>
+						</persName>
+						<sex>F</sex>
+					</person>
+					<person xml:id="M">
+						<persName>
+							<surname>Mauzano</surname>
+						</persName>
+						<sex>M</sex>
+						<occupation n="1">pittore</occupation>
+					</person>
+					<person xml:id="CM">
+						<persName >
+							<name>C. Monestier</name>
+						</persName>
+						<sex>M</sex>
+						<occupation n="1">pittore</occupation>
+					</person>
+				</listPerson>
+				<!--luoghi-->
+				<listPlace>
+					<place xml:id="RV">
+						<placeName >Ravenna</placeName>
+						<settlement type="località">città</settlement>
+						<district type="comune">Ravenna</district>
+						<district type="provincia">RV</district>
+						<country key="N">IT</country>
+					</place>
+					<place xml:id="MO">
+						<placeName >Modena</placeName>
+						<settlement type="località">città</settlement>
+						<district type="comune">Modena</district>
+						<district type="provincia">MO</district>
+						<country key="N">IT</country>
+					</place>
+					<place xml:id="MI" >
+						<placeName >Milano</placeName>
+						<settlement type="località">città</settlement>
+						<district type="comune">Milano</district>
+						<district type="provincia">MI</district>
+						<country key="N">IT</country>
+					</place>
+				</listPlace>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	
+	<!--CARTOLINA 181 -->
+	<TEI xml:id="c181">
+		<teiHeader>
+			<!--descrizione bibliografica completa file-->
+			<fileDesc>
+				<titleStmt>
+					<title>Saluti affettuosi</title>
+					<respStmt>
+						<resp>Trascritto da:</resp>
+						<name ref="#CDN">Chiara De Nigris</name>
+						<name ref="#AV">Alice Vitali</name>
+					</respStmt>
+					<!-- ENTE DI APPARTENENZA -->
+					<respStmt>
+						<resp>Ente di Appartenenza</resp>
+						<name type="comune" ref="#CSP">Comune della Spezia</name>
+					</respStmt>
+				</titleStmt>
+				<editionStmt>
+					<edition>
+						Studenti di Codifica di Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+						<date>2021</date>
+					</edition>
+					<respStmt>
+						<resp>Codificato da:</resp>
+						<name ref="#CDN">Chiara De Nigris</name>
+						<name ref="#AV">Alice Vitali</name>
+					</respStmt>
+					<respStmt>
+						<resp>Compilatore:</resp>
+						<name ref="#TC">Tommaso Castagneto</name>
+					</respStmt>
+					<respStmt>
+						<resp>Responsabile scientifico:</resp>
+						<name ref="#GP">Giacomo Paolicchi</name>
+						<name ref="#ES">Enrica Salvatori</name>
+					</respStmt>
+					<respStmt>
+						<resp>Funzionario responsabile:</resp>
+						<name ref="#MR">Marzia Ratti</name>
+					</respStmt>
+				</editionStmt>
+				<!-- Pubblicazione -->
+				<publicationStmt>
+					<publisher>Università di Pisa</publisher>
+					<pubPlace>Pisa</pubPlace>
+					<availability>
+						<p>Available under licence only</p>
+					</availability>
+					<date when="2018">2018</date>
+					<distributor>LabCD</distributor>
+					<address>
+						<addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+						<addrLine>Pisa</addrLine>
+					</address>
+				</publicationStmt>
+				<notesStmt>
+					<note>Sul retro troviamo la stampa "Vistato dall'Ufficio Revisione Stampa di Milano N 689"
+					</note>
+				</notesStmt>
+				<sourceDesc>
+					<bibl>
+						<title>[Donna che legge una lettera]</title>
+						<pubPlace ref="#MI"></pubPlace>
+                        <date>1917</date>
+					</bibl>
+					<!--Descrizione manoscritto-->
+					<msDesc>
+						<msIdentifier>
+							<country ref="#IT"></country>
+							<settlement ref="#SP"></settlement>
+							<repository ref="#MCE"></repository>
+							<idno>7694_181_001/002</idno>
+						</msIdentifier>
+						<msContents>
+							<summary >Cartolina Artistica</summary>
+							<textLang>Italiano</textLang>
+						</msContents>
+						<physDesc>
+							<objectDesc >
+								<supportDesc>
+									<support>
+										<objectType>Cartolina</objectType>
+										<material>Carta</material>
+										<dimensions unit="cm">
+											<height>9</height>
+											<width>14</width>
+										</dimensions>
+										<stamp>francobollo - Regno d'Italia</stamp>
+										<stamp>timbro - Modena Ferrovia</stamp>
+									</support>
+									<condition>Buono</condition>
+								</supportDesc>
+							</objectDesc>
+						</physDesc>
+					</msDesc>
+				</sourceDesc>
+			</fileDesc>
+			<!--aspetti non bibliografici testo-->
+			<profileDesc>
+				<correspDesc>
+					<correspAction type="sent">
+						<persName ref="#G"></persName>
+						<placeName ref="#MO"></placeName>
+						<date type="writing" when="1917-12-07">1917/12/07</date>
+					</correspAction>
+					<correspAction type="received">
+						<persName ref="#OT"></persName>
+						<placeName ref="#RV"></placeName>
+					</correspAction>
+				</correspDesc>
+				<!--Natura e argomento testo-->
+				<textClass>
+					<keywords>
+						<!-- descrizione -->
+						<term>Cartolina </term>
+						<!-- tipologia -->
+						<term>Cartolina Artistica </term>
+						<!-- soggettario -->
+						<term>Una donna legge una lettera alla scrivania</term>
+					</keywords>
+				</textClass>
+				<langUsage>
+					<language ident="it-IT">italiano</language>
+				</langUsage>
+			</profileDesc>
+		</teiHeader>
+		<facsimile>
+			<surface xml:id="c181Fronte">
+				<graphic url='img/7694-181F.jpg' width='1625px' height='1031px'/>
+			</surface>
+			<surface xml:id="c181Retro">
+				<graphic url='img/7694-181R.jpg' width='1623px' height='1029px' />
+				<zone ulx="1378" uly="10" lrx="1543" lry="84" xml:id="c181_id"/>
+				<zone ulx="105" uly="32" lrx="807" lry="920" xml:id="c181_messaggio"/>
+				<zone ulx="638" uly="48" lrx="810" lry="862"  xml:id="c181_riga1"/>
+				<zone ulx="434" uly="50" lrx="644" lry="881" xml:id="c181_riga2"/>
+				<zone ulx="175" uly="2" lrx="430" lry="948" xml:id="c181_riga3"/>
+				<zone ulx="825" uly="94" lrx="1566" lry="915"  xml:id="c181_destinazione"/>
+				<zone ulx="1099" uly="145" lrx="1484" lry="496" xml:id="c181_timbro"/>
+				<zone ulx="1201" uly="108" lrx="1556" lry="430" xml:id="c181_francobollo"/>
+				<zone ulx="823" uly="343" lrx="1579" lry="926" xml:id="c181_indirizzi"/>
+				<zone ulx="824" uly="334" lrx="1275" lry="581" xml:id="c181_riga4"/>
+				<zone ulx="852" uly="535" lrx="1531" lry="640" xml:id="c181_riga5"/>
+				<zone ulx="822" uly="641" lrx="1554" lry="811" xml:id="c181_riga6"/>
+				<zone ulx="934" uly="772" lrx="1553" lry="919" xml:id="c181_riga7"/>
+				<zone ulx="55" uly="894" lrx="885" lry="957" xml:id="c181_bottom"/>
+				<zone ulx="74" uly="899" lrx="718" lry="948" xml:id="c181_stamp"/>
+				<zone ulx="779" uly="920" lrx="857" lry="940" xml:id="c181_numero"/>
+			</surface>
+		</facsimile>
+		<!-- CORPO TESTO -->
+		<text type="cartolina">
+			<body>
+				<div facs="#c181Fronte" type="fronte">
+					<figure>
+						<graphic url="img/7694-181F.jpg" />
+						<figDesc>Giovane donna legge una lettera seduta ad una scrivania, illuminata da una lampada decorata.
+						Sul fronte della cartolina (in basso a sinistra) è presente una sigla <mentioned><interp>LA</interp></mentioned> ma non è possibile identificare l'autore.</figDesc>
+						<head>[Donna che legge una lettera]</head>
+					</figure>
+				</div>
+				<div facs="#c181Retro" type="retro">
+					<p><idno type="Numerocartolina" facs="#c181_id">181</idno></p>
+					<div facs="#c181_messaggio" type="message">
+						<opener >
+							<lb n="1" facs="#c181_riga1"/>
+							<placeName ref="#MO"> Modena</placeName>
+							<w><pc type="comma">,</pc> lì </w>
+                            <date when="1917/12/7">7/12-1917<pc type="dot">.</pc></date>  
+                        </opener>
+						<p></p>
+						<closer>
+							<salute>
+								<lb n="2" facs="#c181_riga2"/>
+								<w>Mille</w><gap reason="illegibile"></gap><w>affettuosi</w> 
+							</salute>
+							<signed>
+								<lb n="3" facs="#c181_riga3"/>
+								<persName ref="#G"><addName type="alias">Giovannino</addName></persName>
+							</signed>
+						</closer>
+					</div>
+					<div facs="#c181_destinazione" type="destination">
+						<p>
+							<stamp xml:id="c181Timbro" type="postmark" facs="#c181_timbro"> 
+								<placeName ref="#MO"> Modena</placeName>
+								<date>
+									<gap reason="illegible"/>
+								</date>
+								<unclear reason="faded"> Ferrovia </unclear>
+							</stamp>
+							<stamp type="postage" facs="#c181_francobollo">
+								Francobollo da 5 centesimi del Regno d'Italia
+							</stamp>
+						</p>
+						<div>
+							<p>
+								<address facs="#c181_indirizzi">
+									<lb n="4" facs="#c181_riga4"/>
+									<addrLine>
+										<abbr>Gent </abbr>
+										<expan>Gent<ex>ile</ex>
+										</expan>
+										<abbr>Sig</abbr>
+										<expan>Sig<ex>norina</ex>
+										</expan>
+									</addrLine>
+									<lb n="5" facs="#c181_riga5"/>
+									<addrLine>
+										<persName ref="#OT">Oliva Turtura</persName>
+									</addrLine>
+									<lb n="6" facs="#c181_riga6"/>
+									<addrLine>
+										<seg>Via Girolamo Ro</seg><c corresp="ss" >&#x17F;</c><seg>ss</seg><seg>i 58</seg>
+									</addrLine>
+									<lb n="7" facs="#c181_riga7"/>
+									<addrLine>
+										<placeName ref="#RV"><hi rend="underline">Ravenna</hi></placeName>
+									</addrLine>
+								</address>
+							</p>
+						</div>
+					</div>
+					<div facs="#c181_bottom" type="bottom">
+						<p>
+							<stamp facs="#c181_stamp">
+								Vistato dall'Ufficio Revisione Stampa di <placeName ref="#MI">Milano</placeName>  N. 689
+							</stamp>
+						</p>
+						<p>
+							<stamp facs="#c181_numero">
+								900-6
+							</stamp>
+						</p>
+					</div>
+				</div>
+			</body>
+		</text>
+	</TEI>
+	
+	<!--CARTOLINA 209 -->
+	<TEI xml:id="c209">
+		<teiHeader>
+			<!--descrizione bibliografica completa file-->
+			<fileDesc>
+				<titleStmt>
+					<title>Ricordi</title>
+					<respStmt>
+						<resp>Trascritto da:</resp>
+						<name ref="#CDN">Chiara De Nigris</name>
+						<name ref="#AV">Alice Vitali</name>
+					</respStmt>
+					<!-- ENTE DI APPARTENENZA -->
+					<respStmt>
+						<resp>Ente di Appartenenza</resp>
+						<name type="comune" ref="#CSP">Comune della Spezia</name>
+					</respStmt>
+				</titleStmt>
+				<editionStmt>
+				<edition>
+					Studenti di Codifica di Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+					<date>2021</date>
+				</edition>
+				<respStmt>
+					<resp>Codificato da:</resp>
+					<name ref="#CDN">Chiara De Nigris</name>
+					<name ref="#AV">Alice Vitali</name>
+				</respStmt>
+				<respStmt>
+					<resp>Compilatore:</resp>
+					<name ref="#TC">Tommaso Castagneto</name>
+				</respStmt>
+				<respStmt>
+					<resp>Responsabile scientifico:</resp>
+					<name ref="#GP">Giacomo Paolicchi</name>
+					<name ref="#ES">Enrica Salvatori</name>
+				</respStmt>
+				<respStmt>
+					<resp>Funzionario responsabile:</resp>
+					<name ref="#MR">Marzia Ratti</name>
+				</respStmt>
+			</editionStmt>
+			<!-- Pubblicazione -->
+			<publicationStmt>
+				<publisher>Università di Pisa</publisher>
+				<pubPlace>Pisa</pubPlace>
+				<availability>
+					<p>Available under licence only</p>
+				</availability>
+				<date when="2018">2018</date>
+				<distributor>LabCD</distributor>
+				<address>
+					<addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+					<addrLine>Pisa</addrLine>
+				</address>
+			</publicationStmt>
+				<notesStmt>
+					<note>  Sul fronte riporta stampato il nome dell'artista (Mauzano). Sul retro troviamo la stampa "Proprietà artistica riservata - Uff. Rev. Stampa Milano 30-7-17 N 1679". Il timbro sul retro è visibile solo parzialmente.</note>
+				</notesStmt>
+				<sourceDesc>
+					<bibl>
+						<title>[Donna con pappagallo]</title>
+						<author ref="#M"></author>
+						<pubPlace ref="#MI"></pubPlace>
+                        <date>1918</date>
+					</bibl>
+					<!--Descrizione manoscritto-->
+					<msDesc>
+						<msIdentifier>
+							<country ref="#IT"></country>
+							<settlement ref="#SP"></settlement>
+							<repository ref="#MCE"></repository>
+							<idno>7694_209_001/002</idno>
+						</msIdentifier>
+						<msContents>
+							<summary >Cartolina Artistica</summary>
+							<textLang>Italiano</textLang>
+						</msContents>
+						<physDesc >
+						<objectDesc >
+							<supportDesc>
+								<support>
+									<objectType>Cartolina</objectType>
+									<material>Carta</material>
+									<dimensions unit="cm">
+										<height>9</height>
+										<width>14</width>
+									</dimensions>
+									<stamp>francobollo - Regno d'Italia</stamp>
+									<stamp>timbro - Modena Ferrovia</stamp>
+								</support>
+								<condition>Buono</condition>
+							</supportDesc>
+						</objectDesc>
+					</physDesc>
+					</msDesc>
+				</sourceDesc>
+			</fileDesc>
+			<!--aspetti non bibliografici testo-->
+			<profileDesc>
+				<correspDesc>
+					<correspAction type="sent">
+						<persName ref="#G"/>
+						<placeName ref="#MO"></placeName>
+						<date type="writing" when="1918-04-05">1918/04/05</date>
+					</correspAction>
+					<correspAction type="received">
+						<persName ref="#OT"></persName>
+						<placeName ref="#RV"></placeName>
+					</correspAction>
+				</correspDesc>
+				<!--Natura e argomento testo-->
+				<textClass>
+					<keywords>
+						<!-- descrizione -->
+						<term>Cartolina </term>
+						<!-- tipologia -->
+						<term>Cartolina Artistica </term>
+						<!-- soggettario -->
+						<term>Una giovane donna tiene sulle dita di una mano un pappagallo variopinto</term>
+					</keywords>
+				</textClass>
+				<langUsage>
+					<language ident="it-IT">italiano</language>
+				</langUsage>
+			</profileDesc>
+		</teiHeader>
+		<facsimile>
+			<surface xml:id="c209Fronte">
+				<graphic url='img/7694-209F.jpg' width='828px' height='531px'/>
+			</surface>
+			<surface xml:id="c209Retro">
+				<graphic url='img/7694-209R.jpg' width='826px' height='528px'/>
+				<zone ulx="28" uly="27" lrx="370" lry="503" xml:id="c209_messaggio"/>
+				<zone ulx="279" uly="30" lrx="364" lry="410" xml:id="c209_riga1"/>
+				<zone ulx="160" uly="35" lrx="283" lry="374" xml:id="c209_riga2"/>
+				<zone ulx="60" uly="132" lrx="180" lry="504" xml:id="c209_riga3"/>
+				<zone ulx="348" uly="11" lrx="405" lry="493" xml:id="c209_centro"/>
+				<zone ulx="371" uly="13" lrx="386" lry="473" xml:id="c209_stamp"/>
+				<zone ulx="361" uly="480" lrx="394" lry="491" xml:id="c209_numero"/>
+				<zone ulx="382" uly="3" lrx="803" lry="508" xml:id="c209_destinazione"/>
+				<zone ulx="461" uly="67" lrx="532" lry="101" xml:id="c209_id"/>
+				<zone ulx="545" uly="3" lrx="706" lry="104" xml:id="c209_timbro"/>
+				<zone ulx="618" uly="1" lrx="777" lry="127" xml:id="c209_francobollo"/>
+				<zone ulx="382" uly="159" lrx="814" lry="477" xml:id="c209_indirizzi"/>
+				<zone ulx="381" uly="166" lrx="736" lry="280" xml:id="c209_riga4"/>
+				<zone ulx="378" uly="248" lrx="795" lry="323" xml:id="c209_riga5"/>
+				<zone ulx="379" uly="323" lrx="814" lry="406" xml:id="c209_riga6"/>
+				<zone ulx="440" uly="386" lrx="800" lry="497" xml:id="c209_riga7"/>
+			</surface>
+		</facsimile>
+		<!-- CORPO TESTO -->
+		<text type="cartolina">
+			<body>
+				<div facs="#c209Fronte" type="fronte">
+					<figure>
+						<graphic url="img/7694-209F.jpg" />
+						<figDesc>Una giovane donna tiene sulle dita di una mano un pappagallo variopinto</figDesc>
+						<head>[Donna con pappagallo]</head>
+					</figure>
+				</div>
+				<div facs="#209Retro" type="retro">
+					<p><idno type="Numerocartolina" facs="#c209_id">209</idno></p>
+					<div  facs="#c209_messaggio" type="message">
+						<opener>
+							<lb facs="#c209_riga1"/>
+							<placeName ref="#MO"> Modena</placeName>
+							<w><pc type="comma">,</pc> lì </w>
+                            <date when="1918/4/5">5/4-18<pc type="dot">.</pc></date>  
+                        </opener>
+						<p></p>
+						<closer>
+							<salute>
+								<lb facs="#c209_riga2"/>
+								<w>Ricordan</w>
+								<unclear reason="illegible"><interp>doti</interp></unclear>
+							</salute>
+							<signed>
+								<lb facs="#c209_riga3"/>
+									<persName ref="#G"> 
+										<addName type="alias">Giovannino</addName>
+									</persName>
+							</signed>
+						</closer>
+					</div>
+					<div facs="#c209_destinazione" type="destination">
+						<p>
+							<stamp type="postmark" facs="#c209_timbro"> 
+								<gap reason="illegible"/>
+							</stamp>
+							<stamp type="postage" facs="#c209_francobollo">
+								Francobollo da 5 centesimi del Regno d'Italia
+							</stamp>
+						</p>
+						<div>
+							<p>
+								<address facs="#c209_indirizzi">
+									 <lb facs="#c209_riga4"/>
+									<addrLine>
+										<abbr>Gent </abbr>
+										<expan>Gent<ex>ile</ex>
+										</expan>
+										<abbr>Sig na</abbr>
+										<expan>Sig<ex>norina</ex>
+										</expan>
+									</addrLine>
+									<lb facs="#c209_riga5"/>
+									<addrLine>
+										<persName  ref="#OT">Oliva Turtura </persName>
+									</addrLine>
+									<lb facs="#c209_riga6"/>
+									<addrLine>
+										<seg>Via Girolamo Ro</seg><c corresp="ss" >&#x17F;</c><seg>ss</seg><seg>i 58<pc type="dot">.</pc></seg>
+									</addrLine>
+									<lb facs="#c209_riga7"/>
+									<addrLine>
+										<placeName ref="#RV"><hi rend="underline">Ravenna</hi></placeName>
+									</addrLine>
+								</address>
+							</p>
+						</div>
+					</div>
+					<div  facs="#c209_centro" type="centro">
+						<p>
+						<stamp facs="#c209_stamp">
+							Proprietà artistica riservata - Uff Rev. Stampa <placeName ref="#MI">Milano</placeName> 30-7-17 N°. 1679
+						</stamp>
+						</p>
+						<p>
+						<stamp facs="#c209_numero">
+							42-6
+						</stamp>
+						</p>
+					</div>
+				</div>
+			</body>
+		</text>
+	</TEI>
+	
+	<!--CARTOLINA 217 -->
+	<TEI xml:id="c217">
+		<teiHeader>
+			<!--descrizione bibliografica completa file-->
+			<fileDesc>
+				<titleStmt>
+					<title>Saluti affettuosi</title>
+					<respStmt>
+						<resp>Trascritto da:</resp>
+						<name ref="#CDN">Chiara De Nigris</name>
+						<name ref="#AV">Alice Vitali</name>
+					</respStmt>
+					<!-- ENTE DI APPARTENENZA -->
+					<respStmt>
+						<resp>Ente di Appartenenza</resp>
+						<name type="comune" ref="#CSP">Comune della Spezia</name>
+					</respStmt>
+				</titleStmt>
+				<editionStmt>
+				<edition>
+					Studenti di Codifica di Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+					<date>2021</date>
+				</edition>
+				<respStmt>
+					<resp>Codificato da:</resp>
+					<name ref="#CDN">Chiara De Nigris</name>
+					<name ref="#AV">Alice Vitali</name>
+				</respStmt>
+				<respStmt>
+					<resp>Compilatore:</resp>
+					<name ref="#TC">Tommaso Castagneto</name>
+				</respStmt>
+				<respStmt>
+					<resp>Responsabile scientifico:</resp>
+					<name ref="#GP">Giacomo Paolicchi</name>
+					<name ref="#ES">Enrica Salvatori</name>
+				</respStmt>
+				<respStmt>
+					<resp>Funzionario responsabile:</resp>
+					<name ref="#MR">Marzia Ratti</name>
+				</respStmt>
+			</editionStmt>
+			<!-- Pubblicazione -->
+			<publicationStmt>
+				<publisher>Università di Pisa</publisher>
+				<pubPlace>Pisa</pubPlace>
+				<availability>
+					<p>Available under licence only</p>
+				</availability>
+				<date when="2018">2018</date>
+				<distributor>LabCD</distributor>
+				<address>
+					<addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+					<addrLine>Pisa</addrLine>
+				</address>
+			</publicationStmt>
+				<notesStmt>
+					<note>Sul retro troviamo "Proprietà artistica riservata - Uff.Rev. Stampa N 2067 - Milano". Sul retro sono stati apposti due timbri che sembrano essere uguali. Uno dei due è molto sbiadito. </note>
+				</notesStmt>
+				<sourceDesc>
+					<bibl>
+						<title>[Donna con cane]</title>
+						<author ref="#CM"></author>
+						<pubPlace ref="#MI"></pubPlace>
+						<date>1917</date>
+					</bibl>
+					<!--Descrizione manoscritto-->
+					<msDesc>
+						<msIdentifier>
+							<country ref="#IT"></country>
+							<settlement ref="#SP"></settlement>
+							<repository ref="#MCE"></repository>
+							<idno>7694_217_001/002</idno>
+						</msIdentifier>
+						<msContents>
+							<summary >Cartolina Artistica</summary>
+							<textLang>Italiano</textLang>
+						</msContents>
+						<physDesc >
+							<objectDesc >
+								<supportDesc>
+									<support>
+										<objectType>Cartolina</objectType>
+										<material>Carta</material>
+										<dimensions unit="cm">
+											<height>9</height>
+											<width>14</width>
+										</dimensions>
+										<stamp>francobollo - Regno d'Italia</stamp>
+										<stamp>timbro - Modena Ferrovia</stamp>
+									</support>
+									<condition>Buono</condition>
+								</supportDesc>
+							</objectDesc>
+						</physDesc>
+					</msDesc>
+				</sourceDesc>
+			</fileDesc>
+			<profileDesc>
+				<correspDesc>
+					<correspAction type="sent">
+						<persName ref="#G"></persName>
+						<placeName ref="#MO"></placeName>
+						<date type="writing" when="1917-10-24">1917/10/24</date>
+					</correspAction>
+					<correspAction type="received">
+						<persName ref="#OT"></persName>
+						<placeName ref="#RV"></placeName>
+					</correspAction>
+				</correspDesc>
+				<!--Natura e argomento testo-->
+				<textClass>
+					<keywords>
+						<!-- descrizione -->
+						<term>Cartolina </term>
+						<!-- tipologia -->
+						<term>Cartolina Artistica </term>
+						<!-- soggettario -->
+						<term>Una giovane donna accarezza affettuosamente un cane bianco e marrone</term>
+					</keywords>
+				</textClass>
+				<langUsage>
+					<language ident="it-IT">italiano</language>
+				</langUsage>
+			</profileDesc>
+		</teiHeader>
+		<facsimile>
+			<surface xml:id="c217Fronte">
+				<graphic url='img/7694-217F.jpg' width='831px' height='536px'/>
+			</surface>
+			<surface xml:id="c217Retro">
+				<graphic url='img/7694-217R.jpg' width='828px' height='536px' />
+				<zone ulx="22" uly="83" lrx="51" lry="497" xml:id="c217_stamp"/>
+				<zone ulx="73" uly="3" lrx="389" lry="535" xml:id="c217_messaggio"/>
+				<zone ulx="301" uly="31" lrx="386" lry="511" xml:id="c217_riga1"/>
+				<zone ulx="185" uly="3" lrx="295" lry="525" xml:id="c217_riga2"/>
+				<zone ulx="56" uly="2" lrx="193" lry="535" xml:id="c217_riga3"/>
+				<zone ulx="376" uly="495" lrx="410" lry="508" xml:id="c217_numero"/>
+				<zone ulx="324" uly="78" lrx="497" lry="244" xml:id="c217_timbro1"/>
+				<zone ulx="396" uly="3" lrx="827" lry="504" xml:id="c217_destinazione"/>
+				<zone ulx="516" uly="28" lrx="593" lry="89" xml:id="c217_id"/>
+				<zone ulx="627" uly="2" lrx="808" lry="145" xml:id="c217_timbro2"/>
+				<zone ulx="661" uly="32" lrx="793" lry="177" xml:id="c217_francobollo"/>
+				<zone ulx="392" uly="161" lrx="822" lry="505" xml:id="c217_indirizzi"/>
+				<zone ulx="401" uly="161" lrx="651" lry="244" xml:id="c217_riga4"/>
+				<zone ulx="393" uly="254" lrx="809" lry="348" xml:id="c217_riga5"/>
+				<zone ulx="369" uly="335" lrx="823" lry="422" xml:id="c217_riga6"/>
+				<zone ulx="416" uly="394" lrx="821" lry="513" xml:id="c217_riga7"/>
+			</surface>
+		</facsimile>
+		<!-- CORPO TESTO -->
+		<text type="cartolina">
+			<body>
+				<div facs="#c217Fronte" type="fronte">
+					<!--parte con figure-->
+					<figure>
+						<graphic url="img/7694-217F.jpg" />
+						<figDesc>Una giovane donna accarezza affettuosamente un cane bianco e marrone</figDesc>
+						<head>[Donna con cane]</head>
+					</figure>
+				</div>
+				<div facs="#217Retro" type="retro">
+                    <p>
+                    	<idno type="Numerocartolina" facs="#c217_id">217</idno>
+                    </p>
+					<div  facs="#c217_messaggio" type="message">
+						<opener>
+							<lb facs="#c217_riga1"/>
+							<placeName ref="#MO"> Modena</placeName>
+							<pc type="comma">,</pc><w> lì </w>
+                            <date when="1917/10/24">24/10-17</date>  
+                        </opener>
+						<p></p>
+						<closer>
+							<salute>
+								<lb facs="#c217_riga2"/>
+								<w>Saluti</w> <abbr>aff. si</abbr>
+								<expan>aff<ex>ettuo</ex>si
+								</expan><seg>a tutti</seg>
+							</salute>
+							<signed>
+								<lb facs="#c217_riga3"/>
+								<persName ref="#G"> 
+									<addName type="alias">Giovannino</addName>
+								</persName>
+							</signed>
+						</closer>
+					</div>
+					<div facs="#c217_destinazione" type="destination">
+						<p>
+							<stamp type="postmark" facs="#c217_timbro1"> 
+								<unclear reason="faded">
+									<placeName ref="#MO">Modena</placeName>
+								</unclear>
+								<date>
+									<gap reason="illegible"/>
+								</date>
+									<unclear reason="faded"> Ferrovia</unclear>
+							</stamp>
+							<stamp type="postage" facs="#c217_francobollo">
+								Francobollo da 5 centesimi del Regno d'Italia
+							</stamp>
+							<stamp type="postmark" facs="#c217_timbro2"> 
+								<unclear reason="faded">
+									<placeName ref="#MO">Modena</placeName>
+								</unclear>
+								<date>
+									<gap reason="illegible"/>
+								</date>
+								<unclear reason="faded"> Ferrovia</unclear>
+							</stamp>
+						</p>
+						<div>
+							<p>
+								<address facs="#c217_indirizzi">
+									<lb facs="#c217_riga4"/>
+									<addrLine>
+										<abbr>Gent </abbr>
+										<expan>Gent<ex>ile</ex>
+										</expan>
+										<abbr>Sig</abbr>
+										<expan>Sig<ex>norina</ex>
+										</expan>
+									</addrLine>
+									<lb facs="#c217_riga5"/>
+									<addrLine>
+											<persName ref="#OT">Oliva Turtura </persName>
+										
+									</addrLine>
+									<lb facs="#c217_riga6"/>
+									<addrLine>
+										<seg>Via Girolamo Ro</seg><c corresp="ss" >&#x17F;</c><seg>ss</seg><seg>i 58</seg>
+									</addrLine>
+									<lb facs="#c217_riga7"/>
+									<addrLine>
+										<placeName ref="#RV"><hi rend="underline">Ravenna</hi></placeName>
+									</addrLine>
+								</address>
+							</p>
+						</div>
+					</div>
+					<div>
+						<p>
+							<stamp facs="#c217_stamp">
+								Proprietà artistica riservata - Uff Rev. Stampa N. 2067 - <placeName ref="#MI">Milano</placeName>
+							</stamp>
+						</p>
+						<p>
+							<stamp facs="#c217_numero">
+								36-3
+							</stamp>
+						</p>
+					</div>
+				</div>
+			</body>
+		</text>
+	</TEI>
+</teiCorpus>
